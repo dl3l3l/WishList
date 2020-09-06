@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<!-- /WEB-INF/decorators.xml -->
+<decorators defaultdir="/layout">
+	<decorator name="layout" page="layout.jsp">
+		<pattern>/main/*</pattern>
+		<pattern>/member/*</pattern>
+		<pattern>/board/*</pattern>
+		<pattern>/wishList/*</pattern>
+	</decorator>
+	<excludes> <!-- 예외 (decorator사용 X) -->
+		<pattern>/member/picture*</pattern>
+		<pattern>/member/password*</pattern>
+		<pattern>/member/id*</pattern>
+		<pattern>/member/pw*</pattern>
+		<pattern>/member/delete*</pattern>
+		<pattern>/wishList/categoryAdd*</pattern>
+		<pattern>/wishList/categoryEdit*</pattern>
+		<pattern>/wishList/itemAdd*</pattern>
+		<pattern>/board/comment*</pattern>
+		<pattern>/main/notice*</pattern>
+	</excludes>
+</decorators>

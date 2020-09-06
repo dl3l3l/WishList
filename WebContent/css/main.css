@@ -1,0 +1,95 @@
+table { width:80%; border-collapse:collapse;}
+
+/* 게시판 테이블  */
+.board_table tbody { background-color:#F5F5F5; }
+.board_table thead { background-color:white;}
+.board_table tfoot { background-color:white;}
+.board_table td{ border-bottom:2px solid white; }
+.board_table th { background-color: #D3D3D3; color : #353535;  }
+
+.page { 
+  background-color: #c0c0c0;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration : none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+.now_page {
+  background-color: #000040;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration : none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+/* 위시리스트 테이블  */
+.wish_table tbody { background-color:#F0F8FF; }
+.wish_table thead { background-color:white;}
+.wish_table tfoot { background-color:white;}
+.wish_table td{ border-bottom:2px solid white; }
+.wish_table th { background-color: #B0C4DE; color : #353535;  }
+
+.wish_body {
+	display:flex;
+	justify-content:center;
+	padding-top:30px;
+}
+th,td {
+	text-align : center;
+	padding : 5px;
+}
+caption {	color : #111111; font-size: 22px; background-color: #FFFFFF;  }
+input[type=text],input[type=password],input[type=email],input[type=number],input[type=url],textarea {
+	width:100%;
+}
+input[type=button],.button {
+  background-color: #4d4d4d;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration : none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #708090;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration : none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 3px;
+  cursor: pointer;
+}
+.login {
+  border: 2px solid gray;
+  border-radius : 8px;
+  margin : 2px;
+}
+.login:focus {
+  border: 2px solid #555;
+  background-color: lightblue;
+  outline: none;
+}
+.find {
+	font-size: 15px;
+	color : #778899;
+}
+.home {
+	text-decoration : none;
+}
+
